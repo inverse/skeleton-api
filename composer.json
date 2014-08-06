@@ -1,0 +1,21 @@
+{
+    "name": "orno/skeleton-api",
+    "description": "A skeleton RESTful API application using Orno components.",
+    "keywords": ["orno", "rest", "route", "api", "skeleton"],
+    "license": "MIT",
+    "require": {
+        "php": ">=5.4",
+        "orno/config": "1.*",
+        "orno/di": "2.*",
+        "orno/event": "dev-develop",
+        "orno/http": "1.*",
+        "orno/loader": "2.*",
+        "orno/route": "1.*"
+    },
+    "authors": [
+        {
+            "name": "Phil Bennett",
+            "email": "philipobenito@gmail.com"
+        }
+    ]
+}
