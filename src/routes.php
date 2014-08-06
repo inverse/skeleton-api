@@ -1,7 +1,9 @@
 <?php
 
 /**
+ * -----------------------------------------------------------------------------
  * Instantiate the router with access to an existing or new container
+ * -----------------------------------------------------------------------------
  */
 use Orno\Di\Container;
 use Orno\Di\ContainerInterface;
@@ -12,7 +14,9 @@ $route = new RouteCollection(
 );
 
 /**
+ * -----------------------------------------------------------------------------
  * Define some routes
+ * -----------------------------------------------------------------------------
  */
 $route->get('/', 'Api\Controller\MainController::version');
 
@@ -22,6 +26,8 @@ $route->get('/', 'Api\Controller\MainController::version');
 
 
 /**
+ * -----------------------------------------------------------------------------
  * Return a route dispatcher to the bootstrap
+ * -----------------------------------------------------------------------------
  */
 return $route->getDispatcher();
